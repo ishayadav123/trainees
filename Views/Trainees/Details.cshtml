@@ -1,0 +1,180 @@
+﻿@model MVCrepo2.Models.UserDetail
+
+@{
+
+    Layout = null;
+
+}
+
+
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width" />
+
+    <title>Index</title>
+
+</head>
+
+<body>
+
+    <fieldset>
+
+        <legend>UserDetails</legend>
+
+        <div class="display-label">
+            @Html.DisplayNameFor(model => model.FullName)
+            -
+            @Html.DisplayFor(model => model.FullName)
+
+        </div>
+
+        <div class="display-field">
+            @Html.DisplayNameFor(model => model.UserEmail)
+            -
+            @Html.DisplayFor(model => model.UserEmail)
+
+
+        </div>
+
+        <div class="display-label">
+            @Html.DisplayNameFor(model => model.CivilIdNumber)
+            -
+            @Html.DisplayFor(model => model.CivilIdNumber)
+
+        </div>
+        <div class="display-label">
+            @Html.DisplayNameFor(model => model.PasswordHash)
+            -
+            @Html.DisplayFor(model => model.PasswordHash)
+
+        </div>
+        <div class="display-label">
+            @Html.DisplayNameFor(model => model.MobileNo)
+            -
+            @Html.DisplayFor(model => model.MobileNo)
+
+        </div>
+        <div class="display-label">
+            @Html.DisplayNameFor(model => model.RoleId)
+            -
+            @Html.DisplayFor(model => model.RoleId)
+
+        </div>
+        <div class="display-label">
+            @Html.DisplayNameFor(model => model.Address)
+            -
+            @Html.DisplayFor(model => model.Address)
+
+        </div>
+        <div class="display-label">
+            @Html.DisplayNameFor(model => model.Area)
+            -
+            @Html.DisplayFor(model => model.Area)
+
+        </div>
+
+
+        <div class="display-label">
+            @Html.DisplayNameFor(model => model.CreatedDate)
+            -
+            @Html.DisplayFor(model => model.CreatedDate)
+
+        </div>
+        <div class="display-label">
+            @Html.DisplayNameFor(model => model.ModifiedDate)
+            -
+            @Html.DisplayFor(model => model.ModifiedDate)
+
+        </div>
+        <div class="display-label">
+            @Html.DisplayNameFor(model => model.DeviceId)
+            -
+            @Html.DisplayFor(model => model.DeviceId)
+
+        </div>
+        <div class="display-label">
+            @Html.DisplayNameFor(model => model.DeviceType)
+            -
+            @Html.DisplayFor(model => model.DeviceType)
+
+        </div>
+        <div class="display-label">
+            @Html.DisplayNameFor(model => model.Housing)
+            -
+            @Html.DisplayFor(model => model.Housing)
+
+        </div>
+        <div class="display-label">
+            @Html.DisplayNameFor(model => model.Street)
+            -
+            @Html.DisplayFor(model => model.Street)
+
+        </div>
+        <div class="display-label">
+            @Html.DisplayNameFor(model => model.Block)
+            -
+            @Html.DisplayFor(model => model.Block)
+
+        </div>
+        <div class="display-label">
+            @Html.DisplayNameFor(model => model.FcmToken)
+            -
+            @Html.DisplayFor(model => model.FcmToken)
+
+        </div>
+        <div class="display-label">
+            @Html.DisplayNameFor(model => model.VerifiedBy)
+            -
+            @Html.DisplayFor(model => model.VerifiedBy)
+
+        </div>
+        <div class="display-label">
+            @Html.DisplayNameFor(model => model.verify)
+            -
+            @Html.DisplayFor(model => model.verify)
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </fieldset>
+
+    <p>
+
+   
+        @Html.ActionLink("Back to List", "Index")
+
+    </p>
+
+</body>
+
+</html>
